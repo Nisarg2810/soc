@@ -38,7 +38,7 @@ FOUNDER_IMG = "assets/img/team/ashit-mehta-founder"   # -600.webp, -1120.webp, .
 TEAM = [
     {"name": "Ashit Mehta", "role": "Founder", "img": "assets/img/team/ashit-mehta-founder"},
     {"name": "Nisarg Mehta", "role": "Head of Marketing", "img": "assets/img/team/nisarg-mehta-marketing"},
-    {"name": "Design team", "role": "Interior designers & 3D visualisers", "img": ""},
+    {"name": "Khyati Mehta", "role": "Interior Designer & 3D Visualiser", "img": "assets/img/team/khyati-mehta-design"},
     {"name": "Workshop & site", "role": "Carpenters, finishers & installers", "img": ""},
 ]
 
