@@ -620,8 +620,8 @@ def build_studio():
 <section class="section"><div class="wrap"><div class="sec-top"><div><span class="label">Process</span><h2>How we work</h2></div></div>{steps_html()}</div></section>
 <section class="section rule">
   <div class="wrap">
-    <div class="sec-top"><div><span class="label">The team</span><h2>Designers, makers and site managers</h2></div></div>
-    <div class="team">{team_html}</div>
+    <div class="sec-top"><div><span class="label">The team</span><h2>The people behind the studio</h2></div></div>
+    <div class="team" style="--cols:{min(len(C.TEAM), 4)}">{team_html}</div>
   </div>
 </section>
 {cta_band("Come and see the workshop.", "Visit us in Kankaria to see materials, finishes and furniture being made.")}

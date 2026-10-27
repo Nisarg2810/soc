@@ -39,7 +39,6 @@ TEAM = [
     {"name": "Ashit Mehta", "role": "Founder", "img": "assets/img/team/ashit-mehta-founder"},
     {"name": "Nisarg Mehta", "role": "Head of Marketing", "img": "assets/img/team/nisarg-mehta-marketing"},
     {"name": "Khyati Mehta", "role": "Interior Designer & 3D Visualiser", "img": "assets/img/team/khyati-mehta-design"},
-    {"name": "Workshop & site", "role": "Carpenters, finishers & installers", "img": ""},
 ]
 
 FOUNDED = "2014"                         # from the IndiaMART listing (12 years). Confirm.
