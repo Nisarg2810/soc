@@ -263,6 +263,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .split { display: grid; grid-template-columns: 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
 @media (min-width: 900px) { .split { grid-template-columns: 1fr 1fr; } .split.flip > :first-child { order: 2; } }
 .split .media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+@media (max-width: 899px) { .split .media { max-width: 520px; } }
 .split .copy { display: grid; gap: 22px; justify-items: start; max-width: 520px; }
 .split .copy h2 { font-family: var(--f-display); font-weight: 300; font-size: var(--fs-xl); line-height: 1.05; }
 .split .copy p { margin: 0; color: var(--ink-2); }
@@ -358,7 +359,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 @media (min-width: 900px) { .values article + article { padding-left: 28px; border-left: 1px solid var(--line); } }
 .values h3 { font-family: var(--f-display); font-size: 1.7rem; font-weight: 400; }
 .values p { margin: 0; color: var(--ink-2); font-size: var(--fs-sm); }
-.team { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px 24px; }
+.team { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px clamp(12px, 2vw, 24px); }
+@media (min-width: 900px) { .team { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .team figure { margin: 0; display: grid; gap: 12px; }
 .team .ph { aspect-ratio: 4 / 5; background: var(--stone); display: grid; place-items: center; font-family: var(--f-display); font-size: 2.4rem; color: var(--walnut); font-weight: 300; }
 .team figcaption b { display: block; font-weight: 600; font-size: var(--fs-sm); }

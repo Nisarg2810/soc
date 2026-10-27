@@ -29,6 +29,10 @@ MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Shree+Ohm+Creation+C
 HOURS_TEXT = "Monday to Saturday, 10 am to 7 pm"   # DUMMY
 HOURS_SCHEMA = [{"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "10:00", "closes": "19:00"}]
 
+FOUNDER = "Ashit Mehta"
+FOUNDER_ROLE = "Founder"
+FOUNDER_IMG = "assets/img/team/ashit-mehta-founder"   # -600.webp, -1120.webp, .jpg
+
 FOUNDED = "2014"                         # from the IndiaMART listing (12 years). Confirm.
 
 # DUMMY figures shown on the home page. Replace with real numbers.

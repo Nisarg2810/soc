@@ -18,7 +18,8 @@ Replace these before sharing the link widely or running ads.
 | Project names, locations, sizes, stories | `tools/content.py` → `PROJECTS` | Invented examples. Replace with real projects. |
 | Studio numbers (350+ homes etc.) | `tools/config.py` → `STATS` | Invented. Use real figures or remove. |
 | Founding year | `tools/config.py` → `FOUNDED` | 2014, based on "12 years" on IndiaMART. Confirm. |
-| Team section | `tools/build.py` → `build_studio()` | Generic roles. Add real names and photos. |
+| Founder text | `tools/build.py` → `build_studio()` | Short general description of Ashit Mehta. Add real background, years of experience, etc. |
+| Rest of team | `tools/build.py` → `build_studio()` | Generic roles. Add real names and photos. |
 
 ## Good to review
 
