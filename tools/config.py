@@ -33,6 +33,15 @@ FOUNDER = "Ashit Mehta"
 FOUNDER_ROLE = "Founder"
 FOUNDER_IMG = "assets/img/team/ashit-mehta-founder"   # -600.webp, -1120.webp, .jpg
 
+# Team shown on the Studio page. "img" is the base path of the photo (needs -600.webp, -1120.webp and .jpg).
+# Leave "img" empty to show an initial instead of a photo.
+TEAM = [
+    {"name": "Ashit Mehta", "role": "Founder", "img": "assets/img/team/ashit-mehta-founder"},
+    {"name": "Nisarg Mehta", "role": "Head of Marketing", "img": "assets/img/team/nisarg-mehta-marketing"},
+    {"name": "Design team", "role": "Interior designers & 3D visualisers", "img": ""},
+    {"name": "Workshop & site", "role": "Carpenters, finishers & installers", "img": ""},
+]
+
 FOUNDED = "2014"                         # from the IndiaMART listing (12 years). Confirm.
 
 # DUMMY figures shown on the home page. Replace with real numbers.

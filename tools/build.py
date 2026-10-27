@@ -284,11 +284,10 @@ def jcard(a):
 </a>'''
 
 
-def founder_img(sizes, eager=False):
-    base = u(C.FOUNDER_IMG)
-    load = 'loading="eager"' if eager else 'loading="lazy"'
+def person_img(path, name, role, sizes):
+    base = u(path)
     return (f'<picture><source type="image/webp" srcset="{base}-600.webp 600w, {base}-1120.webp 1120w" sizes="{sizes}">'
-            f'<img src="{base}.jpg" width="1120" height="1400" alt="{C.FOUNDER}, {C.FOUNDER_ROLE.lower()} of {C.NAME}" decoding="async" {load} style="width:100%;aspect-ratio:4/5;object-fit:cover"></picture>')
+            f'<img src="{base}.jpg" width="1120" height="1400" alt="{esc(name)}, {esc(role)} at {C.NAME}" decoding="async" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover"></picture>')
 
 
 def nice_date(iso):
@@ -563,10 +562,10 @@ def build_services():
 
 def build_studio():
     trail = [("Home", ""), ("Studio", "studio/")]
-    team = [("Design", "Interior designers & 3D team"), ("Workshop", "Master carpenters & finishers"), ("Site", "Project managers & installers")]
-    founder_tile = (f'<figure>{founder_img("(min-width: 900px) 25vw, 50vw")}'
-                    f'<figcaption><b>{C.FOUNDER}</b><span>{C.FOUNDER_ROLE}</span></figcaption></figure>')
-    team_html = founder_tile + "".join(f'<figure><div class="ph">{n[0]}</div><figcaption><b>{n}</b><span>{r}</span></figcaption></figure>' for n, r in team)
+    team_html = "".join(
+        f'<figure>{person_img(m["img"], m["name"], m["role"], "(min-width: 900px) 25vw, 50vw") if m["img"] else "<div class=" + chr(34) + "ph" + chr(34) + ">" + m["name"][0] + "</div>"}'
+        f'<figcaption><b>{esc(m["name"])}</b><span>{esc(m["role"])}</span></figcaption></figure>'
+        for m in C.TEAM)
     body = f'''
 <section class="page-head">
   <div class="wrap">
@@ -587,7 +586,7 @@ def build_studio():
 </section>
 <section class="section paper rule">
   <div class="wrap split">
-    <div class="media rv">{founder_img("(min-width: 900px) 50vw, 100vw", eager=False)}</div>
+    <div class="media rv">{person_img(C.FOUNDER_IMG, C.FOUNDER, C.FOUNDER_ROLE, "(min-width: 900px) 50vw, 100vw")}</div>
     <div class="copy rv">
       <span class="label">{C.FOUNDER_ROLE}</span>
       <h2>{C.FOUNDER}</h2>

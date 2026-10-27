@@ -19,7 +19,7 @@ Replace these before sharing the link widely or running ads.
 | Studio numbers (350+ homes etc.) | `tools/config.py` → `STATS` | Invented. Use real figures or remove. |
 | Founding year | `tools/config.py` → `FOUNDED` | 2014, based on "12 years" on IndiaMART. Confirm. |
 | Founder text | `tools/build.py` → `build_studio()` | Short general description of Ashit Mehta. Add real background, years of experience, etc. |
-| Rest of team | `tools/build.py` → `build_studio()` | Generic roles. Add real names and photos. |
+| Rest of team | `tools/config.py` → `TEAM` | Design and workshop tiles are generic. Add real people (photo in `assets/img/team/`). |
 
 ## Good to review
 
