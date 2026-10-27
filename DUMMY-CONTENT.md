@@ -7,11 +7,7 @@ Replace these before sharing the link widely or running ads.
 
 | What | Where | Current placeholder |
 |---|---|---|
-| Phone number | `tools/config.py` → `PHONE_DISPLAY`, `PHONE_E164` | +91 90000 00000 |
-| WhatsApp number | `tools/config.py` → `WHATSAPP` | 919000000000 |
-| Email | `tools/config.py` → `EMAIL` | hello@shreeohmcreation.in |
-| Street address | `tools/config.py` → `STREET` | Plot 00, Vatva GIDC Phase 1 |
-| Map pin | `tools/config.py` → `LAT`, `LNG` | approximate Vatva location |
+| Map pin | `tools/config.py` → `LAT`, `LNG` | approximate City Mill Compound location |
 | Opening hours | `tools/config.py` → `HOURS_TEXT`, `HOURS_SCHEMA` | Mon–Sat, 10 am–7 pm |
 
 ## Must replace (honesty)

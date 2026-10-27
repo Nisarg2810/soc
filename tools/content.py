@@ -17,7 +17,7 @@ PROJECTS = [
         "summary": "A bungalow opened up to its garden, with teak, lime plaster and very little else.",
         "story": [
             "The family wanted a house that felt calm the moment you walked in, with space for three generations and a garden you could see from every room.",
-            "We took down two internal walls to join the living and dining areas, then kept the palette to teak, warm white plaster and natural stone. All storage is built in and flush, so the rooms stay clear. The kitchen, wardrobes, beds and dining table were all made in our Vatva workshop.",
+            "We took down two internal walls to join the living and dining areas, then kept the palette to teak, warm white plaster and natural stone. All storage is built in and flush, so the rooms stay clear. The kitchen, wardrobes, beds and dining table were all made in our Kankaria workshop.",
         ],
         "materials": [("Joinery", "Teak veneer on BWP plywood"), ("Walls", "Lime plaster finish"), ("Kitchen", "Matte PU shutters, quartz top"), ("Hardware", "Hettich soft-close")],
     },
@@ -143,7 +143,7 @@ SERVICES = [
         "desc": "Modular kitchens made to measure in our Ahmedabad workshop. L-shaped, parallel, U-shaped and island kitchens in BWP plywood with Hettich fittings.",
         "img": "K2",
         "short": "L-shaped, parallel, U-shaped and island kitchens, made in our own workshop.",
-        "intro": "Every kitchen we make is planned around how your family cooks. We measure the room, plan where the hob, sink and fridge go, and design drawers for your actual utensils. Carcasses are made from waterproof BWP plywood in our Vatva workshop and fitted with soft-close hardware.",
+        "intro": "Every kitchen we make is planned around how your family cooks. We measure the room, plan where the hob, sink and fridge go, and design drawers for your actual utensils. Carcasses are made from waterproof BWP plywood in our Kankaria workshop and fitted with soft-close hardware.",
         "includes": ["Layout planning: straight, L, parallel, U or island", "BWP plywood carcasses, waterproof", "Laminate, acrylic, PU or veneer shutters", "Quartz or granite counters", "Tandem drawers, corner units and tall pantry", "Chimney, hob and appliance integration", "Under-cabinet lighting", "Installation and after-sales service"],
         "price": "An L-shaped modular kitchen in Ahmedabad usually costs between ₹1.8 lakh and ₹4 lakh. Finish, hardware and the number of tall units make the biggest difference.",
         "faqs": [
@@ -178,7 +178,7 @@ SERVICES = [
         "desc": "Beds, sofas, dining tables, TV units and study desks made to order in our Ahmedabad workshop. Teak, veneer and PU finishes, built to your size.",
         "img": "L6",
         "short": "Beds, sofas, dining sets, TV units and study desks, made to order.",
-        "intro": "Our furniture is made by our own carpenters in Vatva. You choose the size, wood and finish, and we build it for your room. Many clients start with one piece, such as a bed or a dining table, and come back for the rest of the house.",
+        "intro": "Our furniture is made by our own carpenters in Kankaria. You choose the size, wood and finish, and we build it for your room. Many clients start with one piece, such as a bed or a dining table, and come back for the rest of the house.",
         "includes": ["King and queen beds with storage", "Sofas and lounge chairs", "Dining tables and chairs", "TV and media units", "Study desks and bookshelves", "Pooja units", "Teak, veneer, laminate and PU finishes", "Upholstery in your choice of fabric"],
         "price": "A storage bed starts from about ₹45,000 and a six-seater dining set from about ₹60,000. Wood, size and upholstery change the price.",
         "faqs": [
@@ -227,7 +227,7 @@ SERVICES = [
 PROCESS = [
     ("Consultation", "We visit your site, measure every room and listen to how you live. Free within Ahmedabad.", "Week 1"),
     ("Design & 3D", "Layouts, materials and photo-realistic 3D views of each room, revised until they feel right.", "Weeks 2–4"),
-    ("Making", "Furniture is made in our Vatva workshop while civil, electrical and ceiling work goes on at site.", "Weeks 4–10"),
+    ("Making", "Furniture is made in our Kankaria workshop while civil, electrical and ceiling work goes on at site.", "Weeks 4–10"),
     ("Installation", "Our own team fits, finishes and cleans. We walk you through every room at handover.", "Weeks 10–12"),
 ]
 
@@ -242,7 +242,7 @@ MATERIALS = [
 
 HOME_FAQS = [
     ("How much does interior design cost in Ahmedabad?", "It depends on size and materials. As a guide, a complete 3BHK usually costs ₹8 lakh to ₹22 lakh, a modular kitchen ₹1.8 lakh to ₹4 lakh and wardrobes ₹1,100 to ₹2,500 per sq ft. We give a detailed estimate after a free site visit."),
-    ("Do you make the furniture yourselves?", "Yes. Kitchens, wardrobes and furniture are made in our own workshop in Vatva, Ahmedabad, which lets us control quality and timelines."),
+    ("Do you make the furniture yourselves?", "Yes. Kitchens, wardrobes and furniture are made in our own workshop in Kankaria, Ahmedabad, which lets us control quality and timelines."),
     ("Which areas of Ahmedabad do you cover?", "All of Ahmedabad and Gandhinagar, including Satellite, Bopal, Shela, Prahlad Nagar, Thaltej, Maninagar, Vatva, Naroda, Gota and Chandkheda."),
     ("Is the first consultation free?", "Yes. The first site visit and consultation within Ahmedabad are free."),
     ("How long does a complete home interior take?", "Most 3BHK homes take 8 to 12 weeks after the design is approved."),
@@ -339,7 +339,7 @@ ARTICLES = [
 <li>Ask for the brand and the invoice. A good maker will show you the sheets before cutting.</li>
 <li>Knock on it. Good plywood sounds solid, not hollow.</li>
 </ol>
-<p>At our workshop you can see the plywood before we cut it. <a href="{base}contact/">Visit us in Vatva</a> or read about our <a href="{base}services/modular-kitchen-ahmedabad/">modular kitchens</a>.</p>
+<p>At our workshop you can see the plywood before we cut it. <a href="{base}contact/">Visit us in Kankaria</a> or read about our <a href="{base}services/modular-kitchen-ahmedabad/">modular kitchens</a>.</p>
 """,
     },
     {

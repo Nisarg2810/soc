@@ -11,20 +11,20 @@ NAME = "Shree Ohm Creation"
 SHORT = "SOC Interiors"
 TAGLINE = "Interior designers and bespoke furniture makers in Ahmedabad"
 
-PHONE_DISPLAY = "+91 90000 00000"        # DUMMY
-PHONE_E164 = "+919000000000"             # DUMMY
-WHATSAPP = "919000000000"                # DUMMY (country code + number, no +)
-EMAIL = "hello@shreeohmcreation.in"      # DUMMY
+PHONE_DISPLAY = "+91 99259 88589"
+PHONE_E164 = "+919925988589"
+WHATSAPP = "919925988589"                # country code + number, no +
+EMAIL = "shreeohmcreation@gmail.com"
 
-STREET = "Plot 00, Vatva GIDC Phase 1"   # DUMMY street line
-LOCALITY = "Vatva"
+STREET = "City Mill Compound, 184/36, Raipur-Kankaria Rd, nr. Big Bazar"
+LOCALITY = "Sherkotda"
 CITY = "Ahmedabad"
 REGION = "Gujarat"
 REGION_CODE = "GJ"
-POSTCODE = "382440"
+POSTCODE = "380022"
 COUNTRY = "IN"
-LAT, LNG = 22.9707, 72.6325              # approximate, Vatva. Set to the exact studio pin.
-MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Shree+Ohm+Creation+Vatva+Ahmedabad"
+LAT, LNG = 23.0087, 72.6025              # approximate, City Mill Compound. Set to the exact pin from Google Maps.
+MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Shree+Ohm+Creation+City+Mill+Compound+Raipur+Kankaria+Road+Ahmedabad"
 
 HOURS_TEXT = "Monday to Saturday, 10 am to 7 pm"   # DUMMY
 HOURS_SCHEMA = [{"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "10:00", "closes": "19:00"}]
@@ -48,7 +48,7 @@ SOCIAL = {
 }
 
 AREAS = [
-    "Vatva", "Maninagar", "Isanpur", "Narol", "Ghodasar", "Naroda", "Nikol", "Bapunagar",
+    "Kankaria", "Raipur", "Khokhra", "Vatva", "Maninagar", "Isanpur", "Narol", "Ghodasar", "Naroda", "Nikol", "Bapunagar",
     "Satellite", "Bopal", "South Bopal", "Shela", "Prahlad Nagar", "Vastrapur", "Thaltej",
     "Bodakdev", "SG Highway", "Navrangpura", "Paldi", "Gota", "Chandkheda", "Gandhinagar",
 ]

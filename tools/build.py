@@ -329,7 +329,7 @@ def build_home():
   <div class="wrap">
     <h1><span class="kicker">Interior designers in Ahmedabad</span>Interiors, made to measure.</h1>
     <div class="hero-foot">
-      <p>Modular kitchens, wardrobes, furniture and complete homes, designed in our studio and made in our own workshop in Vatva.</p>
+      <p>Modular kitchens, wardrobes, furniture and complete homes, designed in our studio and made in our own workshop in Kankaria.</p>
       <a class="link-line" href="{u('projects/' + feat['slug'] + '/')}">{feat['name']}, {feat['location'].split(',')[0]} <span aria-hidden="true">→</span></a>
     </div>
   </div>
@@ -562,7 +562,7 @@ def build_studio():
   <div class="wrap">
     {crumbs_html(trail)}
     <h1>A design studio with its own workshop</h1>
-    <p class="lead">Shree Ohm Creation started in Vatva, Ahmedabad, making furniture by hand. Today we design and build complete homes and offices, still with our own carpenters.</p>
+    <p class="lead">Shree Ohm Creation started in Ahmedabad, making furniture by hand. Today we design and build complete homes and offices, still with our own carpenters.</p>
   </div>
 </section>
 <section class="section tight" style="padding-top:0"><div class="wrap">{img('L0', 'Calm, minimal interior with natural light', 0.5, "100vw", widths=(800, 1400, 2200))}</div></section>
@@ -570,7 +570,7 @@ def build_studio():
   <div class="wrap story">
     <h2>Our story</h2>
     <div class="body">
-      <p>We began in {C.FOUNDED} as a small furniture workshop in Vatva, making wardrobes, beds and modular kitchens for families across the east of the city. Word spread, and clients began asking us to design the whole home around the furniture.</p>
+      <p>We began in {C.FOUNDED} as a small furniture workshop in Kankaria, making wardrobes, beds and modular kitchens for families across the east of the city. Word spread, and clients began asking us to design the whole home around the furniture.</p>
       <p>That is still how we work. Every project is designed in our studio and made in our own workshop, so the person who drew your kitchen can walk across and check it being built. It keeps quality high, timelines honest and prices fair.</p>
     </div>
   </div>
@@ -590,7 +590,7 @@ def build_studio():
     <div class="media rv">{img('D0', 'Dining area with warm wood and soft pendant lights', 1.25, "(min-width: 900px) 50vw, 100vw")}</div>
     <div class="copy rv">
       <span class="label">The workshop</span>
-      <h2>Built by our own hands in Vatva</h2>
+      <h2>Built by our own hands in Kankaria</h2>
       <p>Our workshop has panel saws, edge-banding and spray booths for PU and lacquer, run by carpenters who have been with us for years. Making in-house means we control every joint, every edge and every finish.</p>
       {materials_html()}
     </div>
@@ -603,11 +603,11 @@ def build_studio():
     <div class="team">{team_html}</div>
   </div>
 </section>
-{cta_band("Come and see the workshop.", "Visit us in Vatva to see materials, finishes and furniture being made.")}
+{cta_band("Come and see the workshop.", "Visit us in Kankaria to see materials, finishes and furniture being made.")}
 '''
     about = {"@context": "https://schema.org", "@type": "AboutPage", "name": "About Shree Ohm Creation", "url": abs_url("studio/"), "about": {"@id": abs_url("#business")}}
     page("studio/", "About Us | Interior Studio & Workshop, Ahmedabad | SOC",
-         "Shree Ohm Creation is an Ahmedabad interior design studio with its own furniture workshop in Vatva. Meet the team and see how we design, make and install.",
+         "Shree Ohm Creation is an Ahmedabad interior design studio with its own furniture workshop in Kankaria. Meet the team and see how we design, make and install.",
          body, current="studio/", schema=[crumbs_schema(trail), about], priority="0.8")
 
 
@@ -703,7 +703,7 @@ def build_contact():
 '''
     contact = {"@context": "https://schema.org", "@type": "ContactPage", "name": "Contact Shree Ohm Creation", "url": abs_url("contact/"), "about": {"@id": abs_url("#business")}}
     page("contact/", "Contact | Free Interior Consultation in Ahmedabad | SOC",
-         f"Call {C.PHONE_DISPLAY} or WhatsApp Shree Ohm Creation to book a free site visit for your home, kitchen or office interior in Ahmedabad. Studio in Vatva.",
+         f"Call {C.PHONE_DISPLAY} or WhatsApp Shree Ohm Creation to book a free site visit for your home, kitchen or office interior in Ahmedabad. Studio in Kankaria.",
          body, current="contact/", schema=[crumbs_schema(trail), contact], priority="0.9")
 
 
